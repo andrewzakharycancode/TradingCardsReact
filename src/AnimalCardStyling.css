@@ -1,0 +1,27 @@
+.Card {
+  width: 300px;
+  height: fit-content;
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.Card-image {
+  width: 100%;
+}
+
+.Card-name {
+  margin: 0 0 0.5rem 0;
+}
+
+.Card-details dt {
+  font-weight: bold;
+}
+
+.Card:hover {
+  box-shadow: 10px 10px black;
+}
